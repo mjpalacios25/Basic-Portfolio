@@ -1,22 +1,13 @@
 header {
-    position: fixed;
-    border: 1px solid #cccccc;
+    border: 1px solid red;
     background-color: #ffffff;
     margin: auto;
     width: 100%;
-    height: 88px;
-    left: 0;
-    right: 0;
-    top: 0;
-
-
+    height: 5%;
 }
 
-#container {
-    margin: auto; 
-    width: 960px;
-    color: #4aaaa5;
-
+#background {
+   background-image: url(../images/pink_rice.png);
    
 }
 
@@ -30,30 +21,24 @@ p {
 }
 
 #nameblock {
-position: relative;
 color: white;
 background-color: #4aaaa5;
 padding: 5px;
 text-align: center;
 float: left;
 width: auto;
-left: 220px;
-
 }
 
 #contactcontainer {
-    position: fixed;
     float: right;
     text-orientation: sideways-right;
     width: auto;
     color: #777777;
-    right: 220px;
-    
 }
 
 #about, #contact, #portfolio {
     float: left;
-    padding: 10px;
+    padding: 3px;
     margin-top: 30;
     text-decoration: none;
     color: #777777;
@@ -63,27 +48,22 @@ left: 220px;
     border-right: solid 1px;
 }
 
-#aboutme {
-    padding: 10px;
-}
 
 #profilepic {
     float: left;;
-    width: 30%;
+    width: 25%;
     height: auto;
-    padding: 5px;
+    padding-right: 5px;
 }
 
 #maincontent {
 float: left;
 background-color: #ffffff;
-border: 2px solid #dddddd;
-
+border: 2px solid black;
+background-color: #ffffff;)
 }
 
-hr {
-    width: 90%;
-}
+
 
 footer {
     position: fixed;
@@ -97,9 +77,8 @@ footer {
     bottom: 0;
     left: 0;
     height: 50px;
-    font-size: 10px;
 }
 
 body {
-    background-image: url(../images/congruent_pentagon.png);
+    background-image: url(../images/pink_rice.png);
 }
