@@ -9,7 +9,10 @@ header {
     right: 0;
     top: 0;
 
+}
 
+.headcontain {
+    width: auto;
 }
 
 #container {
@@ -96,10 +99,12 @@ footer {
     width: 100%;
     bottom: 0;
     left: 0;
-    height: 50px;
+    height: 25px;
     font-size: 10px;
 }
 
 body {
     background-image: url(../images/congruent_pentagon.png);
+    max-height: max-content;
+    overflow: scroll;
 }

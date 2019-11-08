@@ -10,6 +10,8 @@ form {
 
 #container {
     overflow: auto;
+    background-color: #ffffff;
+border: 2px solid #dddddd;
 }
 
 #submit {
