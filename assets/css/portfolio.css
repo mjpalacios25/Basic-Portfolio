@@ -6,9 +6,11 @@
 #container {
     overflow: scroll;
     background-color: white;
+    border: 2px solid #dddddd;
     padding: 20px;
-    max-height: 475px;
+    max-height: 525px;
     width: 960px;
+    box-sizing: border-box;
 }
 
 #imagectn {
@@ -57,7 +59,7 @@ h4 {
 #lake {
     position: absolute;
     top: 50px;
-    right: 425px;
+    right: 400px;
 }
 
 #halfdome {
@@ -68,7 +70,7 @@ h4 {
 
 #campfire {position: absolute;
     top: 225px;
-    right: 425px;
+    right: 400px;
 }
 
 #valley {
